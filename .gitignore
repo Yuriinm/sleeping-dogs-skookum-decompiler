@@ -1,0 +1,14 @@
+# Game files and generated output never go into the repository
+input/
+output/
+*.skoo-bin
+*.big
+*.bix
+QSymbolsDictionary_list.txt
+*.tsv
+
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
