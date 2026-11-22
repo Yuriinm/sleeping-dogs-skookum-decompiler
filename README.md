@@ -5,7 +5,7 @@ Decompiles the **SkookumScript** scripts of **Sleeping Dogs: Definitive Edition*
 - **Complete:** reads 100% of the game's script binaries (`Classes.skoo-bin` + 859 `Class[<id>].skoo-bin`) byte for byte, with no errors. It produces 2,078 classes and about 560,000 expressions.
 - **Readable:** methods, coroutines, `if`/`case`/`loop`, `race`/`sync`/`branch`, operators, literals, typed lists and class unions all come out as SkookumScript syntax.
 - **Named:** every symbol gets its real name through the community [QSymbolsDictionary](https://github.com/SDmodding/QSymbolsDictionary).
-- **No dependencies:** plain Python 3.8+. It reads the scripts straight out of the game's `Global.big`.
+- **No dependencies:** plain Python 3.8+ (tested on 3.10 to 3.13). It reads the scripts straight out of the game's `Global.big`.
 - **No game files included.** You need your own copy of the game.
 
 ## Quick start
